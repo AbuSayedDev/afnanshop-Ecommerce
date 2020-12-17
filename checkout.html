@@ -1,0 +1,886 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="description" content="Free Web tutorials">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Abu Sayed">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <!-- Material Design Bootstrap -->
+    <link rel="stylesheet" href="assets/mdb/css/mdb.min.css" />
+    <link rel="stylesheet" href="assets/mdb/css/addons/datatables2.min.css" />
+    <!-- slick slided js -->
+    <link rel="stylesheet" href="assets/slickslider/slick.css">
+    <link rel="stylesheet" href="assets/slickslider/slick-theme.css">
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="assets/css/font.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>checkout</title>
+</head>
+
+<body>
+
+	<!-- top-header-wrapper -->
+    <div class="top-header-wrapper">
+        <div class="nav-container container">
+            <div class="row">
+                <div class="col-md-12">
+                    <nav class="navbar navbar-expand-lg navbar-light">
+                        <a class="navbar-brand col-4 col-md-2" href="index.html"><img src="assets/images/logo.png"
+                                alt="img" width="100%" height="100%"></a>
+
+                        <!-- <button class="navbar-toggler" type="button" data-toggle="" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                          <span class="navbar-toggler-icon"></span>
+                        </button> -->
+
+                        <div class="navbar-collapse" id="navbarNavDropdown">
+                            <!-- Search form -->
+                            <div class="col-md-7">
+                                <form class="form-inline nav-top-form mr-auto">
+                                    <input class="form-control form-control-sm mr-3 w-100" type="text"
+                                        placeholder="Search for products, brands and more.." aria-label="Search">
+                                    <i class="fas fa-search" aria-hidden="true"></i>
+                                </form>
+                            </div>
+
+                            <div class="col-12 col-md-5 m-auto">
+                                <ul class="navbar-nav navtop-custom-navbar-nav float-right">
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                                            aria-haspopup="true" aria-expanded="false"
+                                            style="color: #2874F0 !important;">
+                                            Login
+                                        </a>
+                                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                            <p class=" font-12">New customar? <a href="login.html"
+                                                    class="float-right d-block p-0"
+                                                    style="color: #2874F0; font-size: 12px;">Sign Up</a></p>
+
+                                            <a class="dropdown-item" href="user_manage_account.html"><i class="fas fa-user-circle mr-1"
+                                                    style="color: #2874F0 !important;"></i>
+                                                My Profile</a>
+                                            <a class="dropdown-item" href="#"><i class="fas fa-shopping-cart mr-1"
+                                                    style="color: #2874F0 !important;"></i> Orders</a>
+                                            <!-- <a class="dropdown-item" href="#"><i class="fas fa-star mr-1"
+                                                    style="color: #2874F0 !important;"></i>
+                                                Rewards</a> -->
+                                            <a class="dropdown-item" href="wishlist.html"><i class="fas fa-heart mr-1"
+                                                    style="color: #2874F0 !important;"></i>
+                                                Wishlist</a>
+                                            <!-- <a class="dropdown-item" href="#"><i class="fas fa-gift mr-1" style="color: #2874F0 !important;"></i>
+                                                Gift Cards</a> -->
+                                        </div>
+                                    </li>
+
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="http://example.com"
+                                            id="navbarDropdownMenuLink1" data-toggle="dropdown" aria-haspopup="true"
+                                            aria-expanded="false">
+                                            More
+                                        </a>
+                                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink1">
+                                            <a class="dropdown-item" href="#"><i class="fas fa-bell mr-1"
+                                                    style="color: #2874F0 !important;"></i>
+                                                Notification Preferences</a>
+                                            <!-- <a class="dropdown-item" href="#"><i class="fas fa-shopping-bag mr-1"
+                                                    style="color: #2874F0 !important;"></i>
+                                                Sell on Flipkart</a> -->
+                                            <a class="dropdown-item" href="#"><i class="fas fa-download mr-1"
+                                                    style="color: #2874F0 !important;"></i>
+                                                Download App</a>
+                                        </div>
+                                    </li>
+
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="cart.html">
+                                            Cart
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- header-nav-wrapper -->
+    <div class="header-nav-wrapper">
+        <div class="nav-container container">
+            <div class="row">
+                <div class="col-md-12">
+                    <nav class="navbar navbar-expand-lg navbar-light">
+
+                        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav mr-auto">
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Electronics
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <div class="row">
+                                            <div class="col-md-3">
+                                                <a href="#"><span class="text-uppercase">Mobiles</span></a>
+                                                <ul class="nav flex-column">
+                                                    <li class="nav-item">
+                                                        <a class="nav-link active" href="sub-category.html">MI</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" href="register.html">Realme</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" href="#">Link item</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <!-- /.col-md-3  -->
+                                            <div class="col-md-3">
+                                                <a href="#"><span class="text-uppercase">Category 1</span></a>
+                                                <ul class="nav flex-column">
+                                                    <li class="nav-item">
+                                                        <a class="nav-link active" href="#">Active</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" href="#">Link item</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" href="#">Link item</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+
+                                            <!-- /.col-md-3  -->
+                                            <div class="col-md-3">
+                                                <a href="#"><span class="text-uppercase">Category 1</span></a>
+                                                <ul class="nav flex-column">
+                                                    <li class="nav-item">
+                                                        <a class="nav-link active" href="#">Active</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" href="#">Link item</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" href="#">Link item</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <!-- /.col-md-3  -->
+                                            <div class="col-md-3">
+                                                <a href="#"><span class="text-uppercase">Category 1</span></a>
+                                                <ul class="nav flex-column">
+                                                    <li class="nav-item">
+                                                        <a class="nav-link active" href="#">Active</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" href="#">Link item</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" href="#">Link item</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        TVs & Appliances
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <div class="row">
+                                            <div class="col-md-3">
+                                                <a href="#"><span class="text-uppercase">Category 1</span></a>
+                                                <ul class="nav flex-column">
+                                                    <li class="nav-item">
+                                                        <a class="nav-link active" href="#">Active</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" href="#">Link item</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" href="#">Link item</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <!-- /.col-md-3  -->
+                                            <div class="col-md-3">
+                                                <a href="#"><span class="text-uppercase">Category 1</span></a>
+                                                <ul class="nav flex-column">
+                                                    <li class="nav-item">
+                                                        <a class="nav-link active" href="#">Active</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" href="#">Link item</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" href="#">Link item</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Men
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <div class="row">
+                                            <div class="col-md-3">
+                                                <a href="#"><span class="text-uppercase">Category 1</span></a>
+                                                <ul class="nav flex-column">
+                                                    <li class="nav-item">
+                                                        <a class="nav-link active" href="#">Active</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" href="#">Link item</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" href="#">Link item</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <!-- /.col-md-3  -->
+                                            <div class="col-md-3">
+                                                <a href="#"><span class="text-uppercase">Category 1</span></a>
+                                                <ul class="nav flex-column">
+                                                    <li class="nav-item">
+                                                        <a class="nav-link active" href="#">Active</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" href="#">Link item</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" href="#">Link item</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Women
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <div class="row">
+                                            <div class="col-md-3">
+                                                <a href="#"><span class="text-uppercase">Category 1</span></a>
+                                                <ul class="nav flex-column">
+                                                    <li class="nav-item">
+                                                        <a class="nav-link active" href="#">Active</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" href="#">Link item</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" href="#">Link item</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <!-- /.col-md-3  -->
+                                            <div class="col-md-3">
+                                                <a href="#"><span class="text-uppercase">Category 1</span></a>
+                                                <ul class="nav flex-column">
+                                                    <li class="nav-item">
+                                                        <a class="nav-link active" href="#">Active</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" href="#">Link item</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" href="#">Link item</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Baby & Kids
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <div class="row">
+                                            <div class="col-md-3">
+                                                <a href="#"><span class="text-uppercase">Category 1</span></a>
+                                                <ul class="nav flex-column">
+                                                    <li class="nav-item">
+                                                        <a class="nav-link active" href="#">Active</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" href="#">Link item</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" href="#">Link item</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <!-- /.col-md-3  -->
+                                            <div class="col-md-3">
+                                                <a href="#"><span class="text-uppercase">Category 1</span></a>
+                                                <ul class="nav flex-column">
+                                                    <li class="nav-item">
+                                                        <a class="nav-link active" href="#">Active</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" href="#">Link item</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" href="#">Link item</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Home & Furniture
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <div class="row">
+                                            <div class="col-md-3">
+                                                <a href="#"><span class="text-uppercase">Category 1</span></a>
+                                                <ul class="nav flex-column">
+                                                    <li class="nav-item">
+                                                        <a class="nav-link active" href="#">Active</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" href="#">Link item</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" href="#">Link item</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <!-- /.col-md-3  -->
+                                            <div class="col-md-3">
+                                                <a href="#"><span class="text-uppercase">Category 1</span></a>
+                                                <ul class="nav flex-column">
+                                                    <li class="nav-item">
+                                                        <a class="nav-link active" href="#">Active</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" href="#">Link item</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" href="#">Link item</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Sports, Books & More
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <div class="row">
+                                            <div class="col-md-3">
+                                                <a href="#"><span class="text-uppercase">Category 1</span></a>
+                                                <ul class="nav flex-column">
+                                                    <li class="nav-item">
+                                                        <a class="nav-link active" href="#">Active</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" href="#">Link item</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" href="#">Link item</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <!-- /.col-md-3  -->
+                                            <div class="col-md-3">
+                                                <a href="#"><span class="text-uppercase">Category 1</span></a>
+                                                <ul class="nav flex-column">
+                                                    <li class="nav-item">
+                                                        <a class="nav-link active" href="#">Active</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" href="#">Link item</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" href="#">Link item</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">
+                                        Flights
+                                    </a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">
+                                        Offer Zone
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="wrapper">
+    	<div class="nav-container-fluid container-fluid">
+    		<div class="row">
+    			<div class="col-md-12">
+    				<div class="row">
+
+    					<!-- sitebar -->
+    					<div class="col-md-3 col-sm-12 col-xl-3">
+    						<div class="sitebar">
+								    <div class="card">
+									  	<div class="card-header bg-darkk text-white ">
+									    	<span class="card-header-shippingAddress">1</span>Shipping Address
+									  	</div>
+									  	<div class="card-body">
+											<form action="#" method="">
+											    <div class="form-group">
+											      	<label for="inputEmail4">Name</label>
+											      	<input type="text" class="form-control" placeholder="First name">
+											    </div>
+											    <div class="form-group">
+											      	<label for="inputEmail4">Email</label>
+											      	<input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+											    </div>
+											    <div class="form-group">
+												   	<label for="inputNumber">Mobile</label>
+												   	<input type="number" class="form-control" id="inputNumber">
+												</div>
+												 <div class="form-group">
+												    <label for="exampleFormControlAddress">Address</label>
+												    <textarea class="form-control" id="exampleFormControlAddress" rows="2"></textarea>
+												</div>
+												<div class="form-group">
+											      	<label for="inputCountry">Country</label>
+												     <select id="inputCountry" class="form-control" onchange="set_country(this,country,city_state)">
+												        <option value="" selected="selected"> Choose a country</option>
+												    </select>
+											    </div>
+												<div class="form-group">
+											      	<label for="inputDistrict">District</label>
+												     <select id="inputDistrict" class="form-control" name="country"  onchange="set_city_state(this,city_state)">
+												    </select>
+											    </div>
+												<div class="form-group">
+											      	<label for="inputArea">Area</label>
+												     <select id="inputArea" class="form-control" name="city_state"  onchange="print_city_state(country,this)">
+												    </select>
+
+
+											    </div>
+												<div class="form-group">
+												    <label for="inputZip">Zip/Postal</label>
+												    <input type="text" class="form-control" id="inputZip">
+												</div>
+
+			    							</form>
+									 	</div>
+									</div>
+    						</div>
+    					</div>
+
+
+    					<!-- main-contant -->
+    					<div class="col-md-9  col-sm-12 col-xl-9">
+    						<div class="row">
+
+    							<!-- leftheadercard -->
+    							<div class="col-md-6">
+    								<div class="card leftheadercard">
+
+    									<!-- card-header -->
+									  <div class="card-header bg-darkk text-white ">
+									    <span class="card-header-leftdelivery">2</span>Delivery Method
+									  </div>
+
+									  <!-- card-body -->
+									  <div class="card-body leftcardbory mt-4" id="hidefelltcardbody">
+										<div class="custom-control custom-radio cardcheckradioimg">
+											<input type="radio" id="pickupRadio1" name="customRadio" class="custom-control-input">
+											<label class="custom-control-label" for="pickupRadio1">Pickup from office</label>
+										</div>
+										<div class="custom-control custom-radio cardcheckradioimg">
+											<input type="radio" id="shippingRadio2" name="customRadio" class="custom-control-input">
+											<label class="custom-control-label" for="shippingRadio2">Shipping charge 1$</label>
+										</div>
+									  </div>
+									  
+									</div>
+    							</div>
+
+
+
+								<!-- righttheadercard -->
+    							 <div class="col-md-6">
+    								<div class="card righttheadercard">
+
+    									<!-- card-header  -->
+										<div class="card-header bg-darkk text-white ">
+										    <span class="card-header-rightdelivery">3</span>Payment Method
+										</div>
+
+										<!-- card-body -->
+										<div class="card-body m-1 mt-4">
+											<div class="custom-control custom-radio cardcheckradioimg">
+												<input type="radio" id="customRadio3" name="customRadio" class="custom-control-input">
+												<label class="custom-control-label" for="customRadio3">
+													<img src="assets/images/bank_gateway.png" alt="images">
+												</label>
+											</div>
+											<div class="custom-control custom-radio cardcheckradioimg">
+												  <input type="radio" id="customRadio4" name="customRadio" class="custom-control-input">
+												  <label class="custom-control-label" for="customRadio4">
+												  	<img src="assets/images/cc.png" alt="images">
+												  </label>
+											</div>
+											<div class="custom-control custom-radio cardcheckradioimg">
+												  <input type="radio" id="customRadio5" name="customRadio" class="custom-control-input">
+												  <label class="custom-control-label" for="customRadio5">
+												  	<img src="assets/images/mobile-payment.png" alt="images">
+												  </label>
+											</div>
+											<div class="custom-control custom-radio cardcheckradioimg">
+												  <input type="radio" id="deliveryRadio6" name="customRadio" class="custom-control-input">
+												  <label class="custom-control-label" for="deliveryRadio6">Cash on delivery</label>
+											</div>
+										</div>
+									</div>
+    							</div>
+    						</div>
+
+
+
+							<!-- ordercard -->
+    						<div class="row pt-2">
+    							<div class="col-md-12">
+    								<div class="card ordercard">
+									  	<div class="card-header bg-darkk text-white ">
+									    	<span class="card-header-orderdelivery">4</span>Order Review
+									  	</div>
+									  	<div class="card-body">
+											<table class="table table-hover bordertable">
+											  <thead>
+											    <tr>
+											      <th scope="col"></th>
+											      <th scope="col">Product Code</th>
+											      <th scope="col">Product Name</th>
+											      <th scope="col">Qty</th>
+											      <th scope="col">Price</th>
+											      <th scope="col">Total</th>   
+											    </tr>
+											  </thead>
+											  <tbody id="tablehide">
+											    <tr>
+											      <th scope="row">
+											      	<a href="#" id="cardHide">
+											      		<i class="fas fa-window-close"></i>
+											      	</a>
+											      </th>
+											      <td>SA-67590</td>
+											      <td>Gorgeous Black 100% Cotton Dress for Girls</td>
+											      <td>1</td>
+											      <td>9</td>
+											      <td>9 $</td>
+											    </tr>
+											    <tr>
+											      <th scope="row"></th>
+											      <td></td>
+											      <td></td>
+											      <td></td>
+											      <td>Net Total-</td>
+											      <td>9 $</td>
+											    </tr>
+											    <tr id="shipping_charge1">
+											      <th scope="row"></th>
+											      <td></td>
+											      <td></td>
+											      <td></td>
+											      <td>Shipping charge-</td>
+											      <td>1 $</td>
+											    </tr>
+											    <tr id="grand_total">
+											      <th scope="row"></th>
+											      <td></td>
+											      <td></td>
+											      <td></td>
+											      <td>Grand Total-</td>
+											      <td>10 $</td>
+											    </tr>
+											  </tbody>
+											</table>
+
+											<div class="order-btn float-right">
+												<button type="button" class="btn btn-secondary">checkout</button>
+											</div>
+											<br>
+
+											<div class="inpormation-text pt-4">
+												<p>*If you select <span style="color: orange">Pickup from office,</span> you have to pay only net total otherwise you have to pay grandtotal.</p>
+												<p>*For any information please call <span style="color: orange">+8801711000000</span> </p>
+												<p>*By clicking Place Order, you will agree the <span style="color: orange">Terms & Conditions</span></p>
+											</div>
+									 	</div>
+									</div>
+    							</div>
+    						</div>
+    					</div>
+    				</div>
+    			</div>
+    		</div>
+    	</div>
+    </div>
+
+
+    <!-- footer-wrapper -->
+    <section class="footer-wrapper pt-4">
+        <div class="nav-container-fluid container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="row">
+                        <!-- col-md-3 -->
+                        <div class="col-md-3">
+                            <div class="footer-content-info my-2">
+                                <div class="footer-content-heading mb-3">
+                                    <h2>Get to Know Us</h2>
+                                </div>
+                                <div class="footer-content-list">
+                                    <ul>
+                                        <li><a href="#">Contact Us</a></li>
+                                        <li><a href="#">About Us</a></li>
+                                        <li><a href="#">Careers</a></li>
+                                        <li><a href="#">Afnanshop Stories</a></li>
+                                        <li><a href="#">Payments</a></li>
+                                        <li><a href="#">Shipping</a></li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- col-md-3 -->
+                        <div class="col-md-3">
+                            <div class="footer-content-info my-2">
+                                <div class="footer-content-heading mb-3">
+                                    <h2>Let Us Help You</h2>
+                                </div>
+                                <div class="footer-content-list">
+                                    <ul>
+                                        <li><a href="privacy_policy.html">Privacy & Policy</a></li>
+                                        <li><a href="terms_conditions.html">Terms & Conditions</a></li>
+                                        <li><a href="#">FAQ</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- col-md-3 -->
+                        <div class="col-md-3">
+                            <div class="footer-content-info my-2">
+                                <div class="footer-content-heading mb-3">
+                                    <h2>SOCIAL</h2>
+                                </div>
+                                <div class="footer-content-list">
+                                    <ul>
+                                        <li><a href="#">Facebook</a></li>
+                                        <li><a href="#">Twitter</a></li>
+                                        <li><a href="#">YouTube</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- col-md-3 -->
+                        <div class="col-md-3">
+                            <div class="footer-content-info my-2">
+                                <div class="footer-content-heading mb-3">
+                                    <h2>Registered Office Address:</h2>
+                                </div>
+                                <div class="footer-content-list">
+                                    <p>Afnanshop Internet Private Limited,
+
+                                        Buildings Alyssa, Begonia &
+
+                                        Clove Embassy Tech Village,
+
+                                        Outer Ring Road, Devarabeesanahalli Village,
+
+                                        Bengaluru, 560103,
+
+                                        Dhaka, Bangladesh </p>
+                                    <p>Telephone: 1800 208 9898</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- footer-copy-area -->
+            <div class="row footer-copy-area">
+                <div class="col-md-12">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="footer-copy-right-text my-1">
+                                <span>&copy; 2020 <a href="#">ICTBanglaBD.com</a> All rights reserved.</span>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="footer-copy-right-img my-1">
+                                <img src="assets/images/payment-method_b3ab24.svg" alt="images">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+ <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="assets/js/jQuery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script src="assets/mdb/js/mdb.min.js"></script>
+    <script src="assets/mdb/js/addons/datatables2.min.js"></script>
+    <!-- Font Awesome -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script>
+    <!-- slick slided js -->
+    <script src="assets/slickslider/slick.min.js"></script>
+    <script src="assets/js/custom-slider.js"></script>
+    <!-- zoomscript js -->
+    <script src="assets/js/zoomscript.js"></script>
+    <script src="assets/js/zoomsl.js"></script>
+    <!-- custom js -->
+    <script src="assets/js/custom.js"></script>
+    <!-- loader js -->
+    <script src="assets/js/loader.js"></script>
+    
+    
+        <!-- custom-javascript.js -->
+    <script>
+    	var countries = Object();
+
+			countries['Bangladesh'] = 'Dhaka';
+
+
+			var city_states = Object();
+
+			//Africa
+			city_states['Dhaka'] = 'Inside DCC|Outside DCC';
+
+			html = "";
+			for (inputCountry in countries)
+			  html += '<option value="' + inputCountry + '">' + inputCountry + '</option>';
+
+			document.getElementById("inputCountry").innerHTML = document.getElementById("inputCountry").innerHTML + html;
+
+			function set_country(oRegionSel, oCountrySel, oCity_StateSel) {
+			  var countryArr;
+			  oCountrySel.length = 0;
+			  oCity_StateSel.length = 0;
+			  var inputCountry = oRegionSel.options[oRegionSel.selectedIndex].text;
+			  if (countries[inputCountry]) {
+			    oCountrySel.disabled = false;
+			    oCity_StateSel.disabled = true;
+			    oCountrySel.options[0] = new Option('Choose a district', '');
+			    countryArr = countries[inputCountry].split('|');
+			    for (var i = 0; i < countryArr.length; i++)
+			      oCountrySel.options[i + 1] = new Option(countryArr[i], countryArr[i]);
+			    document.getElementById('txtregion').innerHTML = inputCountry;
+			    document.getElementById('txtplacename').innerHTML = '';
+			  } else oCountrySel.disabled = true;
+			}
+
+			function set_city_state(oCountrySel, oCity_StateSel) {
+			  var city_stateArr;
+			  oCity_StateSel.length = 0;
+			  var country = oCountrySel.options[oCountrySel.selectedIndex].text;
+			  if (city_states[country]) {
+			    oCity_StateSel.disabled = false;
+			    oCity_StateSel.options[0] = new Option('Choose a area', '');
+			    city_stateArr = city_states[country].split('|');
+			    for (var i = 0; i < city_stateArr.length; i++)
+			      oCity_StateSel.options[i + 1] = new Option(city_stateArr[i], city_stateArr[i]);
+			 
+			  } else oCity_StateSel.disabled = true;
+			}
+
+			function print_city_state(oCountrySel, oCity_StateSel) {
+			  var country = oCountrySel.options[oCountrySel.selectedIndex].text;
+			  var city_state = oCity_StateSel.options[oCity_StateSel.selectedIndex].text;
+
+}
+
+
+	</script>
+	
+	<!-- JQuery for show shipping option  -->
+	<script>
+		$(document).ready(function(){
+			// Hide
+			$('#shipping_charge1').hide();
+			$('#hidefelltcardbody').hide();
+			$('#grand_total').hide();
+			// Show
+			$('#inputArea').change(function(){
+				$(this).find("option:selected").each(function(){
+					$('#shipping_charge1').show();
+					$('#hidefelltcardbody').show();
+					$('#grand_total').show();
+				});
+			});
+		});
+	</script>
+
+	<!-- JQuery for hide shipping option  -->
+	<script>
+		$("#cardHide").click(function(){
+			$("#tablehide").hide();
+		});
+	</script>
+
+
+</body>
+</html>

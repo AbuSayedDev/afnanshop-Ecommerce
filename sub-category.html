@@ -1,0 +1,1358 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="description" content="Free Web tutorials">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Abu Sayed">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <!-- Material Design Bootstrap -->
+    <link rel="stylesheet" href="assets/mdb/css/mdb.min.css" />
+    <link rel="stylesheet" href="assets/mdb/css/addons/datatables2.min.css" />
+    <!-- slick slided js -->
+    <link rel="stylesheet" href="assets/slickslider/slick.css">
+    <link rel="stylesheet" href="assets/slickslider/slick-theme.css">
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="assets/css/font.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>sub-category</title>
+</head>
+
+<body>
+    <!-- cart-menu-area fixed cart-->
+    <div class="cart-menu-area">
+        <a href="cart-page.html">
+            <i class="fas fa-cart-plus"></i>
+            <span class="cart-notification">
+                1
+            </span>
+        </a>
+    </div>
+
+    <!-- top-header-wrapper -->
+    <div class="top-header-wrapper">
+        <div class="nav-container container">
+            <div class="row">
+                <div class="col-md-12">
+                    <nav class="navbar navbar-expand-lg navbar-light">
+                        <a class="navbar-brand col-4 col-md-2" href="index.html"><img src="assets/images/logo.png"
+                                alt="img" width="100%" height="100%"></a>
+
+                        <!-- <button class="navbar-toggler" type="button" data-toggle="" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                          <span class="navbar-toggler-icon"></span>
+                        </button> -->
+
+                        <div class="navbar-collapse" id="navbarNavDropdown">
+                            <!-- Search form -->
+                            <div class="col-md-7">
+                                <form class="form-inline nav-top-form mr-auto">
+                                    <input class="form-control form-control-sm mr-3 w-100" type="text"
+                                        placeholder="Search for products, brands and more.." aria-label="Search">
+                                    <i class="fas fa-search" aria-hidden="true"></i>
+                                </form>
+                            </div>
+
+                            <div class="col-12 col-md-5 m-auto">
+                                <ul class="navbar-nav navtop-custom-navbar-nav float-right">
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                                            aria-haspopup="true" aria-expanded="false"
+                                            style="color: #2874F0 !important;">
+                                            Login
+                                        </a>
+                                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                            <p class=" font-12">New customar? <a href="login.html"
+                                                    class="float-right d-block p-0"
+                                                    style="color: #2874F0; font-size: 12px;">Sign Up</a></p>
+
+                                            <a class="dropdown-item" href="user_manage_account.html"><i class="fas fa-user-circle mr-1"
+                                                    style="color: #2874F0 !important;"></i>
+                                                My Profile</a>
+                                            <a class="dropdown-item" href="#"><i class="fas fa-shopping-cart mr-1"
+                                                    style="color: #2874F0 !important;"></i> Orders</a>
+                                            <!-- <a class="dropdown-item" href="#"><i class="fas fa-star mr-1"
+                                                    style="color: #2874F0 !important;"></i>
+                                                Rewards</a> -->
+                                            <a class="dropdown-item" href="wishlist.html"><i class="fas fa-heart mr-1"
+                                                    style="color: #2874F0 !important;"></i>
+                                                Wishlist</a>
+                                            <!-- <a class="dropdown-item" href="#"><i class="fas fa-gift mr-1" style="color: #2874F0 !important;"></i>
+                                                Gift Cards</a> -->
+                                        </div>
+                                    </li>
+
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="http://example.com"
+                                            id="navbarDropdownMenuLink1" data-toggle="dropdown" aria-haspopup="true"
+                                            aria-expanded="false">
+                                            More
+                                        </a>
+                                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink1">
+                                            <a class="dropdown-item" href="#"><i class="fas fa-bell mr-1"
+                                                    style="color: #2874F0 !important;"></i>
+                                                Notification Preferences</a>
+                                            <!-- <a class="dropdown-item" href="#"><i class="fas fa-shopping-bag mr-1"
+                                                    style="color: #2874F0 !important;"></i>
+                                                Sell on Flipkart</a> -->
+                                            <a class="dropdown-item" href="#"><i class="fas fa-download mr-1"
+                                                    style="color: #2874F0 !important;"></i>
+                                                Download App</a>
+                                        </div>
+                                    </li>
+
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="cart.html">
+                                            Cart
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- header-nav-wrapper -->
+    <div class="header-nav-wrapper">
+        <div class="nav-container container">
+            <div class="row">
+                <div class="col-md-12">
+                    <nav class="navbar navbar-expand-lg navbar-light">
+
+                        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav mr-auto">
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Electronics
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <div class="row">
+                                            <div class="col-md-3">
+                                                <a href="#"><span class="text-uppercase">Mobiles</span></a>
+                                                <ul class="nav flex-column">
+                                                    <li class="nav-item">
+                                                        <a class="nav-link active" href="sub-category.html">MI</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" href="register.html">Realme</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" href="#">Link item</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <!-- /.col-md-3  -->
+                                            <div class="col-md-3">
+                                                <a href="#"><span class="text-uppercase">Category 1</span></a>
+                                                <ul class="nav flex-column">
+                                                    <li class="nav-item">
+                                                        <a class="nav-link active" href="#">Active</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" href="#">Link item</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" href="#">Link item</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+
+                                            <!-- /.col-md-3  -->
+                                            <div class="col-md-3">
+                                                <a href="#"><span class="text-uppercase">Category 1</span></a>
+                                                <ul class="nav flex-column">
+                                                    <li class="nav-item">
+                                                        <a class="nav-link active" href="#">Active</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" href="#">Link item</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" href="#">Link item</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <!-- /.col-md-3  -->
+                                            <div class="col-md-3">
+                                                <a href="#"><span class="text-uppercase">Category 1</span></a>
+                                                <ul class="nav flex-column">
+                                                    <li class="nav-item">
+                                                        <a class="nav-link active" href="#">Active</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" href="#">Link item</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" href="#">Link item</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        TVs & Appliances
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <div class="row">
+                                            <div class="col-md-3">
+                                                <a href="#"><span class="text-uppercase">Category 1</span></a>
+                                                <ul class="nav flex-column">
+                                                    <li class="nav-item">
+                                                        <a class="nav-link active" href="#">Active</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" href="#">Link item</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" href="#">Link item</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <!-- /.col-md-3  -->
+                                            <div class="col-md-3">
+                                                <a href="#"><span class="text-uppercase">Category 1</span></a>
+                                                <ul class="nav flex-column">
+                                                    <li class="nav-item">
+                                                        <a class="nav-link active" href="#">Active</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" href="#">Link item</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" href="#">Link item</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Men
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <div class="row">
+                                            <div class="col-md-3">
+                                                <a href="#"><span class="text-uppercase">Category 1</span></a>
+                                                <ul class="nav flex-column">
+                                                    <li class="nav-item">
+                                                        <a class="nav-link active" href="#">Active</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" href="#">Link item</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" href="#">Link item</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <!-- /.col-md-3  -->
+                                            <div class="col-md-3">
+                                                <a href="#"><span class="text-uppercase">Category 1</span></a>
+                                                <ul class="nav flex-column">
+                                                    <li class="nav-item">
+                                                        <a class="nav-link active" href="#">Active</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" href="#">Link item</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" href="#">Link item</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Women
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <div class="row">
+                                            <div class="col-md-3">
+                                                <a href="#"><span class="text-uppercase">Category 1</span></a>
+                                                <ul class="nav flex-column">
+                                                    <li class="nav-item">
+                                                        <a class="nav-link active" href="#">Active</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" href="#">Link item</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" href="#">Link item</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <!-- /.col-md-3  -->
+                                            <div class="col-md-3">
+                                                <a href="#"><span class="text-uppercase">Category 1</span></a>
+                                                <ul class="nav flex-column">
+                                                    <li class="nav-item">
+                                                        <a class="nav-link active" href="#">Active</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" href="#">Link item</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" href="#">Link item</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Baby & Kids
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <div class="row">
+                                            <div class="col-md-3">
+                                                <a href="#"><span class="text-uppercase">Category 1</span></a>
+                                                <ul class="nav flex-column">
+                                                    <li class="nav-item">
+                                                        <a class="nav-link active" href="#">Active</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" href="#">Link item</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" href="#">Link item</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <!-- /.col-md-3  -->
+                                            <div class="col-md-3">
+                                                <a href="#"><span class="text-uppercase">Category 1</span></a>
+                                                <ul class="nav flex-column">
+                                                    <li class="nav-item">
+                                                        <a class="nav-link active" href="#">Active</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" href="#">Link item</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" href="#">Link item</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Home & Furniture
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <div class="row">
+                                            <div class="col-md-3">
+                                                <a href="#"><span class="text-uppercase">Category 1</span></a>
+                                                <ul class="nav flex-column">
+                                                    <li class="nav-item">
+                                                        <a class="nav-link active" href="#">Active</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" href="#">Link item</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" href="#">Link item</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <!-- /.col-md-3  -->
+                                            <div class="col-md-3">
+                                                <a href="#"><span class="text-uppercase">Category 1</span></a>
+                                                <ul class="nav flex-column">
+                                                    <li class="nav-item">
+                                                        <a class="nav-link active" href="#">Active</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" href="#">Link item</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" href="#">Link item</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Sports, Books & More
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <div class="row">
+                                            <div class="col-md-3">
+                                                <a href="#"><span class="text-uppercase">Category 1</span></a>
+                                                <ul class="nav flex-column">
+                                                    <li class="nav-item">
+                                                        <a class="nav-link active" href="#">Active</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" href="#">Link item</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" href="#">Link item</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <!-- /.col-md-3  -->
+                                            <div class="col-md-3">
+                                                <a href="#"><span class="text-uppercase">Category 1</span></a>
+                                                <ul class="nav flex-column">
+                                                    <li class="nav-item">
+                                                        <a class="nav-link active" href="#">Active</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" href="#">Link item</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" href="#">Link item</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">
+                                        Flights
+                                    </a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">
+                                        Offer Zone
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- main-content-wrapper -->
+    <section class="main-content-wrapper">
+        <div class="nav-container-fluid container-fluid">
+
+            <!-- view-all-product-area -->
+            <div class="row my-3">
+                <!-- sitebar-menu -->
+                <div class="col-md-3">
+                    <div class="sitebar-area card">
+
+                        <!-- sidebar-price-rang-menu -->
+                        <div class="sidebar-price-rang-menu mt-3 mb-2">
+                            <div class="card">
+                                <div class="card-header" style="background: #fff; padding: .4rem 1.25rem;">
+                                    <h5 class="m-0 font-weight-bold font-14"> Price</h5>
+                                </div>
+
+
+                                <div class="card-body">
+                                    <fieldset class="filter-price mt-4">
+
+                                        <div class="price-field">
+                                            <input type="range" min="100" max="500" value="135" id="lower">
+                                            <input type="range" min="100" max="500" value="500" id="upper">
+                                        </div>
+
+                                        <div class="price-wrap mt-2">
+                                            <div class="price-container text-center">
+                                                <div class="price-wrap-1">
+                                                    <label for="one">$</label>
+                                                    <input id="one">
+                                                </div>
+                                                <div class="price-wrap_line">-</div>
+                                                <div class="price-wrap-2">
+                                                    <label for="two">$</label>
+                                                    <input id="two">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </fieldset>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- sidebar-category-menu-->
+                        <div class="sidebar-category-menu mb-2">
+                            <div class="card">
+                                <div class="card-header" style="background: #fff; padding: .4rem 1.25rem;">
+                                    <h5 class="m-0 font-weight-bold font-14">Categories</h5>
+                                </div>
+
+                                <div class="CategoriesMenu overflow-auto py-2">
+                                    <!--Accordion wrapper-->
+                                    <div class="accordion md-accordion mt-2" id="accordionEx1" role="tablist"
+                                        aria-multiselectable="true">
+
+
+                                        <!-- Card header -->
+                                        <div class="card-header-menu" role="tab" id="headingTwo1">
+                                            <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx1"
+                                                href="#collapseTwo1" aria-expanded="false" aria-controls="collapseTwo1">
+                                                <h5 class="mb-0">
+                                                    Electronics <i
+                                                        class="fas fa-angle-down rotate-icon float-right"></i>
+                                                </h5>
+                                            </a>
+                                        </div>
+
+                                        <!-- collapseTwo1 -->
+                                        <div id="collapseTwo1" class="collapse" role="tabpanel"
+                                            aria-labelledby="headingTwo1" data-parent="#accordionEx1">
+
+                                            <ul class="list-group list-group-flush">
+                                                <a href="#">
+                                                    <li class="list-group-item">Hypnotic Rose</li>
+                                                </a>
+                                                <a href="#">
+                                                    <li class="list-group-item">Beauty Cream Bar Soap </li>
+                                                </a>
+                                                <a href="#">
+                                                    <li class="list-group-item">Fresh Splash</li>
+                                                </a>
+                                                <a href="#">
+                                                    <li class="list-group-item">Nutritive Solutions </li>
+                                                </a>
+
+                                            </ul>
+                                        </div>
+
+                                    </div>
+                                    <!-- Accordion wrapper -->
+
+
+                                    <!--Accordion wrapper-->
+                                    <div class="accordion md-accordion" id="accordionEx2" role="tablist"
+                                        aria-multiselectable="true">
+
+
+                                        <!-- Card header -->
+                                        <div class="card-header-menu" role="tab" id="headingTwo2">
+                                            <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx2"
+                                                href="#collapseTwo2" aria-expanded="false" aria-controls="collapseTwo2">
+                                                <h5 class="mb-0">
+                                                    TVs & Appliances <i
+                                                        class="fas fa-angle-down rotate-icon float-right"></i>
+                                                </h5>
+                                            </a>
+                                        </div>
+
+                                        <!-- collapseTwo1 -->
+                                        <div id="collapseTwo2" class="collapse" role="tabpanel"
+                                            aria-labelledby="headingTwo2" data-parent="#accordionEx1">
+
+                                            <ul class="list-group list-group-flush">
+                                                <a href="#">
+                                                    <li class="list-group-item">Bottle Brush</li>
+                                                </a>
+                                                <a href="#">
+                                                    <li class="list-group-item">Drinking Cups</li>
+                                                </a>
+                                                <a href="#">
+                                                    <li class="list-group-item">Feeding Item</li>
+                                                </a>
+                                                <a href="#">
+                                                    <li class="list-group-item">Meal Time set</li>
+                                                </a>
+
+                                            </ul>
+                                        </div>
+
+                                    </div>
+                                    <!-- Accordion wrapper -->
+
+
+                                    <!--Accordion wrapper-->
+                                    <div class="accordion md-accordion" id="accordionEx3" role="tablist"
+                                        aria-multiselectable="true">
+
+
+                                        <!-- Card header -->
+                                        <div class="card-header-menu" role="tab" id="headingTwo3">
+                                            <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx3"
+                                                href="#collapseTwo3" aria-expanded="false" aria-controls="collapseTwo3">
+                                                <h5 class="mb-0">
+                                                    Men <i class="fas fa-angle-down rotate-icon float-right"></i>
+                                                </h5>
+                                            </a>
+                                        </div>
+
+                                        <!-- collapseTwo1 -->
+                                        <div id="collapseTwo3" class="collapse" role="tabpanel"
+                                            aria-labelledby="headingTwo3" data-parent="#accordionEx3">
+
+                                            <ul class="list-group list-group-flush">
+                                                <a href="#">
+                                                    <li class="list-group-item">Ajker Offer</li>
+                                                </a>
+                                            </ul>
+                                        </div>
+
+                                    </div>
+                                    <!-- Accordion wrapper -->
+
+
+                                    <!--Accordion wrapper-->
+                                    <div class="accordion md-accordion" id="accordionEx4" role="tablist"
+                                        aria-multiselectable="true">
+
+
+                                        <!-- Card header -->
+                                        <div class="card-header-menu" role="tab" id="headingTwo4">
+                                            <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx4"
+                                                href="#collapseTwo4" aria-expanded="false" aria-controls="collapseTwo4">
+                                                <h5 class="mb-0">
+                                                    Women <i class="fas fa-angle-down rotate-icon float-right"></i>
+                                                </h5>
+                                            </a>
+                                        </div>
+
+                                        <!-- collapseTwo1 -->
+                                        <div id="collapseTwo4" class="collapse" role="tabpanel"
+                                            aria-labelledby="headingTwo4" data-parent="#accordionEx4">
+
+                                            <ul class="list-group list-group-flush">
+                                                <a href="#">
+                                                    <li class="list-group-item">Kids Cloth</li>
+                                                </a>
+                                                <a href="#">
+                                                    <li class="list-group-item">Man's Fashion</li>
+                                                </a>
+                                                <a href="#">
+                                                    <li class="list-group-item">Woman's Fashion</li>
+                                                </a>
+                                            </ul>
+                                        </div>
+
+                                    </div>
+                                    <!-- Accordion wrapper -->
+
+                                    <!--Accordion wrapper-->
+                                    <div class="accordion md-accordion" id="accordionEx5" role="tablist"
+                                        aria-multiselectable="true">
+
+
+                                        <!-- Card header -->
+                                        <div class="card-header-menu" role="tab" id="headingTwo5">
+                                            <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx5"
+                                                href="#collapseTwo5" aria-expanded="false" aria-controls="collapseTwo5">
+                                                <h5 class="mb-0">
+                                                    Baby & Kids <i
+                                                        class="fas fa-angle-down rotate-icon float-right"></i>
+                                                </h5>
+                                            </a>
+                                        </div>
+
+                                        <!-- collapseTwo1 -->
+                                        <div id="collapseTwo5" class="collapse" role="tabpanel"
+                                            aria-labelledby="headingTwo5" data-parent="#accordionEx5">
+
+                                            <ul class="list-group list-group-flush">
+                                                <a href="#">
+                                                    <li class="list-group-item">Kids Cloth</li>
+                                                </a>
+                                                <a href="#">
+                                                    <li class="list-group-item">Man's Fashion</li>
+                                                </a>
+                                                <a href="#">
+                                                    <li class="list-group-item">Woman's Fashion</li>
+                                                </a>
+                                            </ul>
+                                        </div>
+
+                                    </div>
+                                    <!-- Accordion wrapper -->
+
+                                    <!--Accordion wrapper-->
+                                    <div class="accordion md-accordion" id="accordionEx6" role="tablist"
+                                        aria-multiselectable="true">
+
+
+                                        <!-- Card header -->
+                                        <div class="card-header-menu" role="tab" id="headingTwo6">
+                                            <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx5"
+                                                href="#collapseTwo6" aria-expanded="false" aria-controls="collapseTwo6">
+                                                <h5 class="mb-0">
+                                                    Home & Furniture <i
+                                                        class="fas fa-angle-down rotate-icon float-right"></i>
+                                                </h5>
+                                            </a>
+                                        </div>
+
+                                        <!-- collapseTwo1 -->
+                                        <div id="collapseTwo6" class="collapse" role="tabpanel"
+                                            aria-labelledby="headingTwo6" data-parent="#accordionEx6">
+
+                                            <ul class="list-group list-group-flush">
+                                                <a href="#">
+                                                    <li class="list-group-item">Kids Cloth</li>
+                                                </a>
+                                                <a href="#">
+                                                    <li class="list-group-item">Man's Fashion</li>
+                                                </a>
+                                                <a href="#">
+                                                    <li class="list-group-item">Woman's Fashion</li>
+                                                </a>
+                                            </ul>
+                                        </div>
+
+                                    </div>
+                                    <!-- Accordion wrapper -->
+
+
+                                    <!--Accordion wrapper-->
+                                    <div class="accordion md-accordion" id="accordionEx7" role="tablist"
+                                        aria-multiselectable="true">
+
+
+                                        <!-- Card header -->
+                                        <div class="card-header-menu" role="tab" id="headingTwo7">
+                                            <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx7"
+                                                href="#collapseTwo7" aria-expanded="false" aria-controls="collapseTwo7">
+                                                <h5 class="mb-0">
+                                                    Baby & Kids <i
+                                                        class="fas fa-angle-down rotate-icon float-right"></i>
+                                                </h5>
+                                            </a>
+                                        </div>
+
+                                        <!-- collapseTwo1 -->
+                                        <div id="collapseTwo7" class="collapse" role="tabpanel"
+                                            aria-labelledby="headingTwo7" data-parent="#accordionEx7">
+
+                                            <ul class="list-group list-group-flush">
+                                                <a href="#">
+                                                    <li class="list-group-item">Kids Cloth</li>
+                                                </a>
+                                                <a href="#">
+                                                    <li class="list-group-item">Man's Fashion</li>
+                                                </a>
+                                                <a href="#">
+                                                    <li class="list-group-item">Woman's Fashion</li>
+                                                </a>
+                                            </ul>
+                                        </div>
+
+                                    </div>
+                                    <!-- Accordion wrapper -->
+
+
+                                    <!--Accordion wrapper-->
+                                    <div class="accordion md-accordion" id="accordionEx8" role="tablist"
+                                        aria-multiselectable="true">
+
+
+                                        <!-- Card header -->
+                                        <div class="card-header-menu" role="tab" id="headingTwo8">
+                                            <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx8"
+                                                href="#collapseTwo8" aria-expanded="false" aria-controls="collapseTwo8">
+                                                <h5 class="mb-0">
+                                                    Flights <i class="fas fa-angle-down rotate-icon float-right"></i>
+                                                </h5>
+                                            </a>
+                                        </div>
+
+                                    </div>
+                                    <!-- Accordion wrapper -->
+
+
+                                    <!--Accordion wrapper-->
+                                    <div class="accordion md-accordion" id="accordionEx9" role="tablist"
+                                        aria-multiselectable="true">
+
+
+                                        <!-- Card header -->
+                                        <div class="card-header-menu" role="tab" id="headingTwo9">
+                                            <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx5"
+                                                href="#collapseTwo9" aria-expanded="false" aria-controls="collapseTwo9">
+                                                <h5 class="mb-0">
+                                                    Offer Zone <i class="fas fa-angle-down rotate-icon float-right"></i>
+                                                </h5>
+                                            </a>
+                                        </div>
+
+                                    </div>
+                                    <!-- Accordion wrapper -->
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--sidebar brand Accordion wrapper-->
+                        <div class="accordion md-accordion" id="accordionEx" role="tablist" aria-multiselectable="true">
+                            <!-- Accordion card -->
+                            <div class="card">
+                                <!-- Card header -->
+                                <div class="card-header" role="tab" id="headingOne1">
+                                    <a data-toggle="collapse" data-parent="#accordionEx" href="#collapseOne1"
+                                        aria-expanded="true" aria-controls="collapseOne1">
+                                        <h5 class="mb-0 font-weight-bold font-14">
+                                            Brands <i class="fas fa-angle-down rotate-icon float-right"></i>
+                                        </h5>
+                                    </a>
+                                </div>
+
+                                <!-- Card body -->
+                                <div id="collapseOne1" class="collapse show" role="tabpanel"
+                                    aria-labelledby="headingOne1" data-parent="#accordionEx">
+                                    <div class="card-body">
+                                        <!-- Default unchecked -->
+                                        <div class="custom-control custom-checkbox">
+                                            <input type="checkbox" class="custom-control-input" id="defaultUnchecked">
+                                            <label class="custom-control-label" for="defaultUnchecked">Default
+                                                unchecked</label>
+                                        </div>
+                                        <div class="custom-control custom-checkbox">
+                                            <input type="checkbox" class="custom-control-input" id="defaultUnchecked1">
+                                            <label class="custom-control-label" for="defaultUnchecked1">Default
+                                                unchecked</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Accordion card -->
+
+                        </div>
+
+                        <!--sidebar color Accordion wrapper-->
+                        <div class="accordion md-accordion" id="accordionEx" role="tablist" aria-multiselectable="true">
+                            <!-- Accordion card -->
+                            <div class="card">
+                                <!-- Card header -->
+                                <div class="card-header" role="tab" id="headingOne2">
+                                    <a data-toggle="collapse" data-parent="#accordionEx" href="#collapseOne2"
+                                        aria-expanded="true" aria-controls="collapseOne2">
+                                        <h5 class="mb-0 font-weight-bold font-14">
+                                            Color <i class="fas fa-angle-down rotate-icon float-right"></i>
+                                        </h5>
+                                    </a>
+                                </div>
+
+                                <!-- Card body -->
+                                <div id="collapseOne2" class="collapse show" role="tabpanel"
+                                    aria-labelledby="headingOne2" data-parent="#accordionEx">
+                                    <div class="card-body">
+                                        <!-- Default unchecked -->
+                                        <div class="custom-control custom-checkbox">
+                                            <input type="checkbox" class="custom-control-input"
+                                                id="defaultUncheckedcolor">
+                                            <label class="custom-control-label" for="defaultUncheckedcolor">Blue</label>
+                                        </div>
+                                        <div class="custom-control custom-checkbox">
+                                            <input type="checkbox" class="custom-control-input"
+                                                id="defaultUncheckedcolor1">
+                                            <label class="custom-control-label"
+                                                for="defaultUncheckedcolor1">Gold</label>
+                                        </div>
+                                        <div class="custom-control custom-checkbox">
+                                            <input type="checkbox" class="custom-control-input"
+                                                id="defaultUncheckedcolor2">
+                                            <label class="custom-control-label" for="defaultUncheckedcolor2">Red</label>
+                                        </div>
+                                        <div class="custom-control custom-checkbox">
+                                            <input type="checkbox" class="custom-control-input"
+                                                id="defaultUncheckedcolor3">
+                                            <label class="custom-control-label"
+                                                for="defaultUncheckedcolor3">Black</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Accordion card -->
+
+                        </div>
+
+                        <!--sidebar size Accordion wrapper-->
+                        <div class="accordion md-accordion" id="accordionEx" role="tablist" aria-multiselectable="true">
+                            <!-- Accordion card -->
+                            <div class="card">
+                                <!-- Card header -->
+                                <div class="card-header" role="tab" id="headingOne3">
+                                    <a data-toggle="collapse" data-parent="#accordionEx" href="#collapseOne3"
+                                        aria-expanded="true" aria-controls="collapseOne3">
+                                        <h5 class="mb-0 font-weight-bold font-14">
+                                            Size <i class="fas fa-angle-down rotate-icon float-right"></i>
+                                        </h5>
+                                    </a>
+                                </div>
+
+                                <!-- Card body -->
+                                <div id="collapseOne3" class="collapse show" role="tabpanel"
+                                    aria-labelledby="headingOne3" data-parent="#accordionEx">
+                                    <div class="card-body">
+                                        <!-- Default unchecked -->
+                                        <div class="custom-control custom-checkbox">
+                                            <input type="checkbox" class="custom-control-input"
+                                                id="defaultUncheckedsize">
+                                            <label class="custom-control-label" for="defaultUncheckedsize">XL</label>
+                                        </div>
+                                        <div class="custom-control custom-checkbox">
+                                            <input type="checkbox" class="custom-control-input"
+                                                id="defaultUncheckedsize1">
+                                            <label class="custom-control-label" for="defaultUncheckedsize1">L</label>
+                                        </div>
+                                        <div class="custom-control custom-checkbox">
+                                            <input type="checkbox" class="custom-control-input"
+                                                id="defaultUncheckedsize2">
+                                            <label class="custom-control-label" for="defaultUncheckedsize2">M</label>
+                                        </div>
+                                        <div class="custom-control custom-checkbox">
+                                            <input type="checkbox" class="custom-control-input"
+                                                id="defaultUncheckedsize3">
+                                            <label class="custom-control-label" for="defaultUncheckedsize3">S</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Accordion card -->
+
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- all-product -->
+                <div class="col-md-9">
+                    <div class="dail-product">
+                        <!-- card -->
+                        <div class="card">
+                            <!-- card-header -->
+                            <div class="card-header py-2">
+                                <span>Electronics &nbsp; <i class="fas fa-angle-right"></i> &nbsp;</span>
+                                <span>Mobile</span>
+                            </div>
+
+                            <!-- card-body -->
+                            <div class="card-body p-0">
+                                <div class="row p-5">
+                                    <!-- col-xl-2 -->
+                                    <div class="col-12 col-md-3">
+                                        <!-- item -->
+                                        <div class="item m-4">
+                                            <a href="producr_cart_view.html">
+                                                <div class="product-info text-center">
+                                                    <div class="product-img">
+                                                        <img src="assets/images/product/img.webp" alt="images">
+                                                    </div>
+                                                    <div class="product-text-info my-2">
+                                                        <p class="product-title mb-2">Wired Earphones</p>
+                                                        <p class="title-many mb-2">৳1500 <del>৳ 300</del></p>
+                                                        <p class="mb-2">Mi, boAt, realme & more</p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <!-- col-xl-2 -->
+                                    <div class="col-12 col-md-3">
+                                        <!-- item -->
+                                        <div class="item m-4">
+                                            <a href="producr_cart_view.html">
+                                                <div class="product-info text-center">
+                                                    <div class="product-img">
+                                                        <img src="assets/images/product/img2.webp" alt="images">
+                                                    </div>
+                                                    <div class="product-text-info my-2">
+                                                        <p class="product-title mb-2">Wired Earphones</p>
+                                                        <p class="title-many mb-2">৳1500 <del>৳ 300</del></p>
+                                                        <p class="mb-2">Mi, boAt, realme & more</p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                    <!-- col-xl-2 -->
+                                    <div class="col-12 col-md-3">
+                                        <!-- item -->
+                                        <div class="item m-4">
+                                            <a href="producr_cart_view.html">
+                                                <div class="product-info text-center">
+                                                    <div class="product-img">
+                                                        <img src="assets/images/product/img.webp" alt="images">
+                                                    </div>
+                                                    <div class="product-text-info my-2">
+                                                        <p class="product-title mb-2">Wired Earphones</p>
+                                                        <p class="title-many mb-2">৳1500 <del>৳ 300</del></p>
+                                                        <p class="mb-2">Mi, boAt, realme & more</p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <!-- col-xl-2 -->
+                                    <div class="col-12 col-md-3">
+                                        <!-- item -->
+                                        <div class="item m-4">
+                                            <a href="producr_cart_view.html">
+                                                <div class="product-info text-center">
+                                                    <div class="product-img">
+                                                        <img src="assets/images/product/img2.webp" alt="images">
+                                                    </div>
+                                                    <div class="product-text-info my-2">
+                                                        <p class="product-title mb-2">Wired Earphones</p>
+                                                        <p class="title-many mb-2">৳1500 <del>৳ 300</del></p>
+                                                        <p class="mb-2">Mi, boAt, realme & more</p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <!-- col-xl-2 -->
+                                    <div class="col-12 col-md-3">
+                                        <!-- item -->
+                                        <div class="item m-4">
+                                            <a href="producr_cart_view.html">
+                                                <div class="product-info text-center">
+                                                    <div class="product-img">
+                                                        <img src="assets/images/product/img.webp" alt="images">
+                                                    </div>
+                                                    <div class="product-text-info my-2">
+                                                        <p class="product-title mb-2">Wired Earphones</p>
+                                                        <p class="title-many mb-2">৳1500 <del>৳ 300</del></p>
+                                                        <p class="mb-2">Mi, boAt, realme & more</p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <!-- col-xl-2 -->
+                                    <div class="col-12 col-md-3">
+                                        <!-- item -->
+                                        <div class="item m-4">
+                                            <a href="producr_cart_view.html">
+                                                <div class="product-info text-center">
+                                                    <div class="product-img">
+                                                        <img src="assets/images/product/img2.webp" alt="images">
+                                                    </div>
+                                                    <div class="product-text-info my-2">
+                                                        <p class="product-title mb-2">Wired Earphones</p>
+                                                        <p class="title-many mb-2">৳1500 <del>৳ 300</del></p>
+                                                        <p class="mb-2">Mi, boAt, realme & more</p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <!-- col-xl-2 -->
+                                    <div class="col-12 col-md-3">
+                                        <!-- item -->
+                                        <div class="item m-4">
+                                            <a href="producr_cart_view.html">
+                                                <div class="product-info text-center">
+                                                    <div class="product-img">
+                                                        <img src="assets/images/product/img.webp" alt="images">
+                                                    </div>
+                                                    <div class="product-text-info my-2">
+                                                        <p class="product-title mb-2">Wired Earphones</p>
+                                                        <p class="title-many mb-2">৳1500 <del>৳ 300</del></p>
+                                                        <p class="mb-2">Mi, boAt, realme & more</p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <!-- col-xl-2 -->
+                                    <div class="col-12 col-md-3">
+                                        <!-- item -->
+                                        <div class="item m-4">
+                                            <a href="producr_cart_view.html">
+                                                <div class="product-info text-center">
+                                                    <div class="product-img">
+                                                        <img src="assets/images/product/img2.webp" alt="images">
+                                                    </div>
+                                                    <div class="product-text-info my-2">
+                                                        <p class="product-title mb-2">Wired Earphones</p>
+                                                        <p class="title-many mb-2">৳1500 <del>৳ 300</del></p>
+                                                        <p class="mb-2">Mi, boAt, realme & more</p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <!-- col-xl-2 -->
+                                    <div class="col-12 col-md-3">
+                                        <!-- item -->
+                                        <div class="item m-4">
+                                            <a href="producr_cart_view.html">
+                                                <div class="product-info text-center">
+                                                    <div class="product-img">
+                                                        <img src="assets/images/product/img.webp" alt="images">
+                                                    </div>
+                                                    <div class="product-text-info my-2">
+                                                        <p class="product-title mb-2">Wired Earphones</p>
+                                                        <p class="title-many mb-2">৳1500 <del>৳ 300</del></p>
+                                                        <p class="mb-2">Mi, boAt, realme & more</p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <!-- col-xl-2 -->
+                                    <div class="col-12 col-md-3">
+                                        <!-- item -->
+                                        <div class="item m-4">
+                                            <a href="producr_cart_view.html">
+                                                <div class="product-info text-center">
+                                                    <div class="product-img">
+                                                        <img src="assets/images/product/img2.webp" alt="images">
+                                                    </div>
+                                                    <div class="product-text-info my-2">
+                                                        <p class="product-title mb-2">Wired Earphones</p>
+                                                        <p class="title-many mb-2">৳1500 <del>৳ 300</del></p>
+                                                        <p class="mb-2">Mi, boAt, realme & more</p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <!-- col-xl-2 -->
+                                    <div class="col-12 col-md-3">
+                                        <!-- item -->
+                                        <div class="item m-4">
+                                            <a href="producr_cart_view.html">
+                                                <div class="product-info text-center">
+                                                    <div class="product-img">
+                                                        <img src="assets/images/product/img.webp" alt="images">
+                                                    </div>
+                                                    <div class="product-text-info my-2">
+                                                        <p class="product-title mb-2">Wired Earphones</p>
+                                                        <p class="title-many mb-2">৳1500 <del>৳ 300</del></p>
+                                                        <p class="mb-2">Mi, boAt, realme & more</p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <!-- col-xl-2 -->
+                                    <div class="col-12 col-md-3">
+                                        <!-- item -->
+                                        <div class="item m-4">
+                                            <a href="producr_cart_view.html">
+                                                <div class="product-info text-center">
+                                                    <div class="product-img">
+                                                        <img src="assets/images/product/img2.webp" alt="images">
+                                                    </div>
+                                                    <div class="product-text-info my-2">
+                                                        <p class="product-title mb-2">Wired Earphones</p>
+                                                        <p class="title-many mb-2">৳1500 <del>৳ 300</del></p>
+                                                        <p class="mb-2">Mi, boAt, realme & more</p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <!-- col-xl-2 -->
+                                    <div class="col-12 col-md-3">
+                                        <!-- item -->
+                                        <div class="item m-4">
+                                            <a href="producr_cart_view.html">
+                                                <div class="product-info text-center">
+                                                    <div class="product-img">
+                                                        <img src="assets/images/product/img.webp" alt="images">
+                                                    </div>
+                                                    <div class="product-text-info my-2">
+                                                        <p class="product-title mb-2">Wired Earphones</p>
+                                                        <p class="title-many mb-2">৳1500 <del>৳ 300</del></p>
+                                                        <p class="mb-2">Mi, boAt, realme & more</p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <!-- col-xl-2 -->
+                                    <div class="col-12 col-md-3">
+                                        <!-- item -->
+                                        <div class="item m-4">
+                                            <a href="producr_cart_view.html">
+                                                <div class="product-info text-center">
+                                                    <div class="product-img">
+                                                        <img src="assets/images/product/img2.webp" alt="images">
+                                                    </div>
+                                                    <div class="product-text-info my-2">
+                                                        <p class="product-title mb-2">Wired Earphones</p>
+                                                        <p class="title-many mb-2">৳1500 <del>৳ 300</del></p>
+                                                        <p class="mb-2">Mi, boAt, realme & more</p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- footer-wrapper -->
+    <section class="footer-wrapper pt-4">
+        <div class="nav-container-fluid container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="row">
+                        <!-- col-md-3 -->
+                        <div class="col-md-3">
+                            <div class="footer-content-info my-2">
+                                <div class="footer-content-heading mb-3">
+                                    <h2>Get to Know Us</h2>
+                                </div>
+                                <div class="footer-content-list">
+                                    <ul>
+                                        <li><a href="#">Contact Us</a></li>
+                                        <li><a href="#">About Us</a></li>
+                                        <li><a href="#">Careers</a></li>
+                                        <li><a href="#">Afnanshop Stories</a></li>
+                                        <li><a href="#">Payments</a></li>
+                                        <li><a href="#">Shipping</a></li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- col-md-3 -->
+                        <div class="col-md-3">
+                            <div class="footer-content-info my-2">
+                                <div class="footer-content-heading mb-3">
+                                    <h2>Let Us Help You</h2>
+                                </div>
+                                <div class="footer-content-list">
+                                    <ul>
+                                        <li><a href="privacy_policy.html">Privacy & Policy</a></li>
+                                        <li><a href="terms_conditions.html">Terms & Conditions</a></li>
+                                        <li><a href="#">FAQ</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- col-md-3 -->
+                        <div class="col-md-3">
+                            <div class="footer-content-info my-2">
+                                <div class="footer-content-heading mb-3">
+                                    <h2>SOCIAL</h2>
+                                </div>
+                                <div class="footer-content-list">
+                                    <ul>
+                                        <li><a href="#">Facebook</a></li>
+                                        <li><a href="#">Twitter</a></li>
+                                        <li><a href="#">YouTube</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- col-md-3 -->
+                        <div class="col-md-3">
+                            <div class="footer-content-info my-2">
+                                <div class="footer-content-heading mb-3">
+                                    <h2>Registered Office Address:</h2>
+                                </div>
+                                <div class="footer-content-list">
+                                    <p>Afnanshop Internet Private Limited,
+
+                                        Buildings Alyssa, Begonia &
+
+                                        Clove Embassy Tech Village,
+
+                                        Outer Ring Road, Devarabeesanahalli Village,
+
+                                        Bengaluru, 560103,
+
+                                        Dhaka, Bangladesh </p>
+                                    <p>Telephone: 1800 208 9898</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- footer-copy-area -->
+            <div class="row footer-copy-area">
+                <div class="col-md-12">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="footer-copy-right-text my-1">
+                                <span>&copy; 2020 <a href="#">ICTBanglaBD.com</a> All rights reserved.</span>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="footer-copy-right-img my-1">
+                                <img src="assets/images/payment-method_b3ab24.svg" alt="images">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="assets/js/jQuery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script src="assets/mdb/js/mdb.min.js"></script>
+    <script src="assets/mdb/js/addons/datatables2.min.js"></script>
+    <!-- Font Awesome -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script>
+    <!-- slick slided js -->
+    <script src="assets/slickslider/slick.min.js"></script>
+    <script src="assets/js/custom-slider.js"></script>
+    <!-- zoomscript js -->
+    <script src="assets/js/zoomscript.js"></script>
+    <script src="assets/js/zoomsl.js"></script>
+    <!-- custom js -->
+    <script src="assets/js/custom.js"></script>
+    <!-- loader js -->
+    <script src="assets/js/loader.js"></script>
+</body>
+
+</html>
